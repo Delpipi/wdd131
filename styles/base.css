@@ -1,0 +1,119 @@
+/* https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25 */
+
+:root {
+    --primary-color: #283618;
+    --secondary-color: #BC6C25;
+    --accent-color1: #606C38;
+    --accent-color2: #DDA15E;
+    --h2-font-size: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", serif;
+    display: grid;
+    grid-template: auto 1fr auto / 300px 1fr auto;
+    height: 100vh;
+}
+
+
+/* ============= header css  ==========*/
+
+header, main, footer{
+    grid-column: 1 / 4;
+}
+
+.top-header {
+    background-color: var(--accent-color1);
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    
+    background-color: var(--secondary-color);
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+/* ============= main css  ==========*/
+main {
+    display: grid;
+    grid-template: 300px auto;
+    gap: 1rem;
+    padding: 3rem;
+}
+
+.presentation {
+    grid-column: 1;
+}
+
+.dev-resource {
+    grid-column: 2;
+} 
+
+.card {
+    border-radius: 20px;
+    border: 1px var(--accent-color1) solid;
+    overflow: hidden;
+}
+
+
+.card-title {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 20px;
+    font-size: var(--h2-font-size);
+    text-align: center;
+}
+
+.card-body{
+    padding: 3rem;
+}
+
+.card img {
+    float: right;
+    margin-left: 2rem;
+}
+
+.card-body p {
+    text-align: justify;
+    margin-right: 10rem ;
+}
+
+.card-body h3{
+   padding-top: 50px;
+   font-size: 25px;
+   text-align: center;
+}
+
+hr.divider {
+    margin-bottom: 20px;
+}
+
+
+/* ============= footer css  ==========*/
+
+footer {
+    background-color: #000;
+    padding: 2rem;
+    text-align: center;
+    color: #fff;
+}
