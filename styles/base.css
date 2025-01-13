@@ -46,11 +46,11 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: #fff; 
 }
 
 nav a:hover {
-    color: #fff;
+    color: var(--primary-color);
 }
 
 /* ============= main css  ==========*/
