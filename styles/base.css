@@ -59,7 +59,6 @@ main {
     grid-template: 300px auto / 1fr ;
     gap: 1rem;
     padding: 3rem;
-    max-width: fit-content;
 }
 
 .presentation {
