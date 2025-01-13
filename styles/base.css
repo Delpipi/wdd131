@@ -75,7 +75,6 @@ main {
     overflow: hidden;
 }
 
-
 .card-title {
     background-color: var(--primary-color);
     color: #fff;
@@ -88,18 +87,28 @@ main {
     padding: 3rem;
 }
 
-.card img {
-    float: right;
-    margin-left: 2rem;
-}
-
 .card-body p {
     text-align: justify;
-    margin-right: 10rem ;
+    overflow: hidden;
 }
 
+.profile img {
+    float: right;
+    margin-left: 1rem;
+}
+
+.country {
+    clear: both;
+    padding-top: 3rem ;
+}
+
+.country img {
+    float: left;
+    margin-right: 1rem;
+    margin-top: 2rem;
+} 
+
 .card-body h3{
-   padding-top: 50px;
    font-size: 25px;
    text-align: center;
 }
@@ -116,4 +125,9 @@ footer {
     padding: 2rem;
     text-align: center;
     color: #fff;
+}
+
+#lastModified {
+    color: var(--secondary-color);
+    font-size: 12px;
 }
