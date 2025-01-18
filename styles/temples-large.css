@@ -1,0 +1,40 @@
+/* https://coolors.co/user/palettes/678beac8839e55000be52eaf */
+
+/*======= header styling =========*/
+@media screen and (min-width: 760px){
+    
+
+    header {
+        display: grid;
+        max-width: 100%;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .navigation {
+        flex-direction: row;
+        padding: 2rem;
+        justify-content: start;
+    }
+
+    .navigation a {
+        display: inline-block;
+        padding: 1rem 3rem;
+    }
+
+    #menu{
+        display: none;
+    }
+
+    /*======= main styling =========*/
+    main {
+        max-width: 100%;
+        padding: 0px 3rem 3rem 3rem;
+    }
+
+    .temples {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        padding: 1rem;
+    }
+}

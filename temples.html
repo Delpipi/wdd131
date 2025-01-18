@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Temple Album</title>
-        <meta name="description" content="">
+        <meta name="description" content="Home page">
+        <meta name="author" content="Kouame Alexandre">
+        <title>Temple Album - KOUAME ALEXANDRE PAUL</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/temples.css">
+        <link rel="stylesheet" href="styles/temples-large.css">
+        <script src="scripts/temples.js" async defer></script>
     </head>
     <body>
         <header>
             <h1>Temple Album</h1>
-            <button id="menu"></button>
+            <a id="menu" href="#"></a>
             <nav>
                 <ul class="navigation">
                     <li><a href="#" class="active">Home</a></li>
@@ -27,7 +30,7 @@
         </header>
         <main>
             <section>
-                <h1>Home</h1>
+                <h2>Home</h2>
                 <div class="temples">
                     <figure>
                         <img src="images/temple-san-diego.webp" alt="San Diego California Temple">
@@ -69,9 +72,9 @@
             </section>
         </main>
         <footer>
-            <p>&copy; <span id="year"></span> Kouame Alexandre Paul - Cote d'Ivoire</p>
+            <p>&copy; <span id="currentYear"></span> Kouame Alexandre Paul - Cote d'Ivoire</p>
             <p id="lastModified"></p>
         </footer>
-        <script src="scripts/temples.js" async defer></script>
+        
     </body>
 </html>

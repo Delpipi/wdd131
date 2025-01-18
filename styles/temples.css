@@ -14,12 +14,12 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: "Roboto", serif;
+a {
+    text-decoration: none;
 }
 
-h1 {
-    font-size: 2rem;
+body{
+    font-family: "Roboto", serif;
 }
 
 /*======= header styling =========*/
@@ -28,9 +28,12 @@ header {
     max-width: 760px;
 } 
 
+
+
 header h1 {
     color: #fff;
     padding: 2rem;
+    font-size: 2rem;
 }
 
 .navigation {
@@ -44,7 +47,6 @@ header h1 {
     display: none;
     font-size: 1.5rem;
     color: #fff;
-    text-decoration: none;
     text-align: center;
     padding: 1rem;
 }
@@ -84,9 +86,10 @@ main{
     margin: 0 auto;
 }
 
-main h1 {
+main h2 {
     padding: 3rem 1rem 1rem 1rem;
     text-align: center;
+    font-size: 1.7rem;
 }
 
 .temples {
@@ -106,4 +109,12 @@ figure img{
 
 figcaption {
     color: var(--primary-color);
+}
+
+/* ============ styling footer ==============*/
+footer {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    color: #fff;
+    text-align: center;
 }
