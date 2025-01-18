@@ -1,0 +1,109 @@
+/* https://coolors.co/user/palettes/678beac8839e55000be52eaf */
+
+:root {
+    --primary-color: #2f3e46ff;
+    --secondary-color: #354f52ff;
+    --accent-color1: #52796fff;
+    --accent-color2: #84a98cff;
+    --accent-color3: #cad2c5ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+/*======= header styling =========*/
+header {
+    background-color: var(--primary-color);
+    max-width: 760px;
+} 
+
+header h1 {
+    color: #fff;
+    padding: 2rem;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.navigation a {
+    display: none;
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem;
+}
+
+.navigation a:hover, .navigation a.active{
+    background-color: var(--accent-color3);
+    font-weight: bold;
+    color: #000;
+}
+
+/* styling humburger */
+#menu{
+    font-size: 2rem;
+    border: 0;
+    background: none;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#menu::before{
+    content: "☰";
+}
+
+.open a {
+    display: block;
+}
+
+#menu.open::before{
+    content: "X";
+}
+
+/* ============ styling main ==============*/
+main{
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+main h1 {
+    padding: 3rem 1rem 1rem 1rem;
+    text-align: center;
+}
+
+.temples {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img{
+    max-width: 100%;
+}
+
+figcaption {
+    color: var(--primary-color);
+}
