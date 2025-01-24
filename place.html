@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/place.css">
+        <link rel="stylesheet" href="styles/place-large.css">
+    </head>
+    <body>
+        <header>
+            <h1>Côte d'Ivoire</h1>
+        </header>
+        <main>
+            <section>
+                <picture>
+                    <source srcset="images/place-large.webp" media="(min-width: 1000px)">
+                    <source srcset="images/place-medium.webp" media="(min-width: 500px)">
+                    <img src="images/place-small.webp" alt="Emblem of Cote d'Ivoire" width="500" height="387">
+                </picture>
+            </section>
+            <section>
+                <div class="data">
+                    <h2>Data</h2>
+                    <ul>
+                        <li><strong>Area:</strong> <span>322,462 sq km</span></li>
+                        <li><strong>Popualtion:</strong> <span>31,500,000</span></li>
+                        <li><strong>Capital:</strong> <span>Yamoussoukro</span></li>
+                        <li><strong>Largest city:</strong> <span>Abidjan</span></li>
+                        <li><strong>Languages:</strong> <span>French</span></li>
+                        <li><strong>Currency:</strong> <span>West African CFA franc (XOF)</span></li>
+                        <li><strong>Time Zone:</strong> <span>UTC±00:00 (GMT)</span></li>
+                        <li><strong>Calling Code:</strong> <span>+225</span></li>
+                        <li><strong>Internet TLD:</strong> <span>.ci</span></li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="weather">
+                    <h2>Weather</h2>
+                    <img src="images/1530391_weather_clouds_sun_sunny_icon.svg" alt="weather svg icon" width="80" height="80">
+                    <ul>
+                        <li><strong>Temperature:</strong> <span>30 °C</span></li>
+                        <li><strong>Conditions:</strong> <span>Partly cloudy</span></li>
+                        <li><strong>Wind:</strong> <span>12 km/h</span></li>
+                        <li><strong>Wind Chill:</strong> <span id="windChill"></span></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; <span id="currentYear"></span> - Kouame Alexandre Paul - Cote d'Ivoire</p>
+            <p id="lastModified"></p>
+        </footer>
+        <script src="scripts/place.js" async defer></script>
+    </body>
+</html>
