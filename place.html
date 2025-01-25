@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
+        <title>Cote d'Ivoire - WDD KOUAME ALEXANDRE PAUL</title>
+        <meta name="description" content="prenting Cote d'Ivoire, tourist, cuture">
+        <meta name="author" content="Kouame Alexandre Paul">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -17,16 +17,18 @@
             <h1>Côte d'Ivoire</h1>
         </header>
         <main>
-            <section>
+            <div class="hero">
                 <picture>
                     <source srcset="images/place-large.webp" media="(min-width: 1000px)">
                     <source srcset="images/place-medium.webp" media="(min-width: 500px)">
                     <img src="images/place-small.webp" alt="Emblem of Cote d'Ivoire" width="500" height="387">
                 </picture>
-            </section>
-            <section>
-                <div class="data">
+            </div>
+            <section class="data card">
+                <div class="card-header">
                     <h2>Data</h2>
+                </div>
+                <div class="card-body">
                     <ul>
                         <li><strong>Area:</strong> <span>322,462 sq km</span></li>
                         <li><strong>Popualtion:</strong> <span>31,500,000</span></li>
@@ -40,10 +42,14 @@
                     </ul>
                 </div>
             </section>
-            <section>
-                <div class="weather">
+            <section class="weather card">
+
+                <div class="card-header">
                     <h2>Weather</h2>
-                    <img src="images/1530391_weather_clouds_sun_sunny_icon.svg" alt="weather svg icon" width="80" height="80">
+                    <img src="images/1530391_weather_clouds_sun_sunny_icon.svg" alt="weather svg icon" width="50" height="50">
+                </div>
+               
+                <div class="card-body">
                     <ul>
                         <li><strong>Temperature:</strong> <span>30 °C</span></li>
                         <li><strong>Conditions:</strong> <span>Partly cloudy</span></li>

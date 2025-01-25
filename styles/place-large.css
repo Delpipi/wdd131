@@ -1,0 +1,39 @@
+@media screen and (min-width: 760px) {
+
+    /* style main */
+    main {
+        position: relative;
+    }
+
+    .card{
+        background-color: var(--accent-color2);
+        width: 300px;
+    }
+
+    .data {
+        position: absolute;
+        top: 10%;
+        left: 5%;
+    }
+
+    .weather {
+        position: absolute;
+        bottom: 10%;
+        right: 5%;
+    }
+
+    .card-header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        background-color: var(--primary-color);
+
+        position: relative;
+        right: 20px ;
+
+        margin-bottom: 1rem;
+
+    }
+
+}
