@@ -1,0 +1,130 @@
+/* https://coolors.co/user/palettes/678beac8839e55000be52eaf */
+
+:root {
+    --primary-color: #2f3e46ff;
+    --secondary-color: #354f52ff;
+    --accent-color1: #52796fff;
+    --accent-color2: #84a98cff;
+    --accent-color3: #cad2c5ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    font-family: "Roboto", serif;
+}
+
+/*======= header styling =========*/
+header {
+    background-color: var(--primary-color);
+    max-width: 760px;
+} 
+
+
+
+header h1 {
+    color: #fff;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.navigation a {
+    display: none;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.navigation a:hover, .navigation a.active{
+    background-color: var(--accent-color3);
+    font-weight: bold;
+    color: #000;
+}
+
+/* styling humburger */
+#menu{
+    font-size: 2rem;
+    border: 0;
+    background: none;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#menu::before{
+    content: "☰";
+}
+
+.open a {
+    display: block;
+}
+
+#menu.open::before{
+    content: "X";
+}
+
+/* ============ styling main ==============*/
+section{
+    width: 100%;
+}
+
+main{
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+main h2 {
+    padding: 3rem 1rem 1rem 1rem;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+#temples {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+
+.temple-card {
+    height: auto;
+    padding: 2rem;
+    background-color: #eee;
+    text-align: center;
+}
+
+.card-header ul {
+    list-style: none;
+    padding-bottom: 1rem;
+}
+
+.card-body img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* ============ styling footer ==============*/
+footer {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    color: #fff;
+    text-align: center;
+}
