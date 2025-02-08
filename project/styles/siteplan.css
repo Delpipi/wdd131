@@ -33,3 +33,86 @@ h1 {
 }
 
 /* main styling */
+
+main {
+    padding: 1rem;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 2px 2px 10px #eee;
+}
+
+section h2{
+    color: var(--var-primary-color);
+    padding-bottom: 0.5rem;
+}
+
+section p {
+    color: var(--var-primary-color);
+    text-align: justify;
+}
+
+section ul {
+    list-style: none;
+    color: var(--var-primary-color);
+}
+
+section ul li{
+    padding: 0.2rem;
+}
+
+.schema span{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.schema strong{
+    display: inline-block;
+    width: 150px;
+}
+
+.primary-color span {
+    background-color: #1D3557;
+    color: #fff;
+}
+
+.secondary-color span {
+    background-color: #E63946;
+    color: #000;
+}
+
+.accent-color1 span {
+    background-color: #457B9D;
+    color: #fff;
+}
+
+.accent-color2 span {
+    background-color: #F1FAEE;
+    color: #000;
+}
+
+.accent-color3 span {
+    background-color: #A8DADC;
+    color: #000;
+}
+
+.wireframes h3 {
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+footer{
+    padding: 1.5rem;
+    background-color: var(--var-secondary-color);
+    text-align: center;
+}

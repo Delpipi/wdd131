@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>website plan</title>
-        <meta name="description" content="">
+        <meta name="description" content="website plan for personal portfolio">
+        <meta name="author" content="Kouame Alexandre Paul">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/siteplan.css">
+        <link rel="stylesheet" href="styles/siteplan-large.css">
     </head>
     <body>
        <header><h1>Personal Portfolio - website Plan</h1></header>
@@ -19,7 +21,7 @@
                 <p>ALEXANDRE PAUL KOUAME</p>
                 <p>
                     This name is reflect the content of the website because I describe my Personal Portfolio.
-                    <span class="domain">Domain: alexandrepaulkouame.net</span>
+                    <span><strong> Domain: alexandrepaulkouame.net</strong></span>
                 </p>
             </section>
             <section>
@@ -37,45 +39,38 @@
                     <li>How can someone contact you ?</li>
                 </ul>
             </section>
-            <section>
-                <div class="schema">
-                    <h2>Color Schema: </h2>
-                    <p>https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557</p>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Primary Color</th>
-                                <th>Secondary Color</th>
-                                <th>Accent color 1</th>
-                                <th>Accent color 2</th>
-                                <th>Accent color 3</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>#1D3557</td>
-                                <td>#E63946</td>
-                                <td>#457B9D</td>
-                                <td>#F1FAEE</td>
-                                <td>#A8DADC</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="typo">
-                    <h2>Typography: </h2>
-                    <p><strong>Heading : </strong> Roboto 700</p>
-                    <p>Body: Roboto 400</p>
-                </div>
+            <section class="schema">
+                <h2>Color Schema: </h2>
+                <p>https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557</p>
+                <ul>
+                    <li class="primary-color"><strong>Primary Color : </strong> <span>#1D3557</span></li>
+                    <li class="secondary-color"><strong>Secondary Color : </strong> <span>#E63946</span></li>
+                    <li class="accent-color1"><strong>Accent color 1 :  </strong> <span>#457B9D</span></li>
+                    <li class="accent-color2"><strong>Accent color 2 : </strong> <span> #F1FAEE</span></li>
+                    <li class="accent-color3"><strong>Accent color 3 : </strong> <span>#A8DADC</span></li>
+                </ul>
             </section>
             <section>
+                <h2>Typography: </h2>
+                <p><strong>Heading : </strong> Roboto 700</p>
+                <p>Body: Roboto 400</p>
+            </section>
+            <section class="wireframes">
                 <h2>Wireframes</h2>
-                <div>
+                <div class="desktop">
+                    <h3>Desktop</h3>
                     <img src="images/desktop_plan.png" alt="desktop plan wireframe">
+                </div>
+                <div class="mobile">
+                    <h3>Mobile</h3>
                     <img src="images/mobile_plan.png" alt="mobile plan wireframe">
                 </div>
             </section>
-       </main>
-       <footer></footer>
+        </main>
+        <footer>     
+            <p> &copy;<span id="currentYear"></span> - WEBSITE PLAN / KOUAME ALEXANDRE PAUL</p>
+            <p><span id="lastModified"></span></p>
+        </footer>
+        <script src="scripts/siteplan.js"  async defer></script>
     </body>
 </html>

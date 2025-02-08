@@ -1,36 +1,24 @@
-/* https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557 */
+@media screen and (min-width: 760px) {
+    main {
+        width: 60%;
+        margin: 0 auto;
+    }
 
-:root{
-    --var-primary-color: #1D3557;
-    --var-secondary-color: #E63946;
-    --var-accent-color1: #457B9D;
-    --var-accent-color2: #F1FAEE;
-    --var-accent-color3: #A8DADC;
-}
+    .wireframes {
+        display: grid;
+        grid-template-columns: 1fr 300px;
+        column-gap: 10px;
+    }
 
+    .wireframes h2{
+        grid-column: span 2;
+    }
 
+    .dosktop {
+        grid-column: 1/1;
+    }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: "Roboto", sans-serif;
-    width: 100%;
-}
-
-/* header styling */
-
-header {
-    background-color: var(--var-primary-color);
-    color: #fff;
-    padding: 1rem;
-}
-
-h1 {
-    text-align: center;
-}
-
-/* main styling */
+    .mobile {
+        grid-column: 2/2;
+    }
+} 
