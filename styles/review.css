@@ -1,0 +1,44 @@
+/* https://coolors.co/2b2d42-8d99ae-edf2f4-ef233c-d90429 */
+:root{
+    --var-primary-color: #2B2D42;
+    --var-secondary-color: #D90429;
+    --var-accent-color1: #EDF2F4;
+    --var-accent-color2: #8D99AE;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+/* ========= HEADER STYLING ==============*/
+header {
+    background-color: var(--var-primary-color);
+    padding: 1rem;
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+}
+
+/* ========= Main STYLING ==============*/
+main {
+    background-color: var(--var-accent-color1);
+    padding: 2rem;
+    margin: 2rem 1rem;
+    text-align: center;
+}
+
+/* ========= FOOTER STYLING ==============*/
+footer{
+    padding: 1rem;
+    background-color: var(--var-secondary-color);
+    text-align: center;
+    font-size: 0.8rem;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <title>Review Form by KOUAME ALEXANDRE PAUL</title>
+        
+        <meta name="description" content="product review form">
+        <meta name="author" content="Kouame Alexandre Paul">
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="styles/form.css">
+        <link rel="stylesheet" href="styles/form-large.css">
+    </head>
+
+    <body>
+
+        <header><h1>Product Review</h1></header>
+
+        <main>
+
+            <form method="get" action="review.html" class="reviewForm">
+
+                <label for="pname">Product Name *
+                    <select name="pname" id="pname" required>
+                        <option value="">Select a Product ...</option>
+                    </select>
+                </label>
+
+                <div>Overall Rating</div>
+                <label for="rating1" class="star"><input type="radio" name="rating" value="1"  id="rating1" required>★</label>
+                <label for="rating2" class="star"><input type="radio" name="rating" value="2"  id="rating2">★★</label>
+                <label for="rating3" class="star"><input type="radio" name="rating" value="3"  id="rating3">★★★</label>
+                <label for="rating4" class="star"><input type="radio" name="rating" value="4"  id="rating4">★★★★</label>
+                <label for="rating5" class="star"><input type="radio" name="rating" value="5"  id="rating5">★★★★★</label>
+                
+                <label for="dinstall">Date of Installation * <input type="date" name="dinstall" id="dinstall" required></label>
+                
+                <div>Which features did you find usefull in the product ? (Check all that apply)</div>
+                <label for="durability"><input type="checkbox" name="durability" value="durability"  id="durability">Durability</label>
+                <label for="ease-of-use"><input type="checkbox" name="ease-of-use" value="ease of use"  id="ease-of-use">Ease of Use</label>
+                <label for="performance"><input type="checkbox" name="performance" value="performance"  id="performance">Performance</label>
+                <label for="design"><input type="checkbox" name="design" value="design"  id="design">Design</label>
+                
+                <label for="message">Write review <textarea name="message" id="message" cols="30" rows="10"></textarea></label>
+                <label for="fullname">Your name<input type="text" name="fullname" id="fullname" placeholder="Your name"></label>
+
+                <input type="submit" value="Post My Review">
+
+            </form>
+
+        </main>
+
+        <footer>
+            <p>&copy; <span id="currentYear"></span> Kouame Alexandre Paul, Abidjan - Cote d'Ivoire</p>
+            <p id="lastModified"></p>
+        </footer>
+
+        <script src="scripts/form.js" async defer></script>
+    </body>
+</html>
