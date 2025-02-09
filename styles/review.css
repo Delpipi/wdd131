@@ -41,4 +41,5 @@ footer{
     background-color: var(--var-secondary-color);
     text-align: center;
     font-size: 0.8rem;
+    color: #fff;
 }
