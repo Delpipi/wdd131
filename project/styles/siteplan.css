@@ -82,27 +82,27 @@ section ul li{
 }
 
 .primary-color span {
-    background-color: #1D3557;
+    background-color: var(--var-primary-color);
     color: #fff;
 }
 
 .secondary-color span {
-    background-color: #E63946;
+    background-color: var(--var-secondary-color);
     color: #000;
 }
 
 .accent-color1 span {
-    background-color: #457B9D;
+    background-color: var(--var-accent-color1);
     color: #fff;
 }
 
 .accent-color2 span {
-    background-color: #F1FAEE;
+    background-color: var(--var-accent-color2);
     color: #000;
 }
 
 .accent-color3 span {
-    background-color: #A8DADC;
+    background-color: var(--var-accent-color3);
     color: #000;
 }
 
