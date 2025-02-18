@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Project - Kouame Alexandre Paul</title>
+        <meta name="description" content="Project ">
+        <meta name="author" content="Kouame Alexandre Paul">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/base-large.css">
+        <link rel="stylesheet" href="styles/project.css">
+        <link rel="stylesheet" href="styles/project-large.css">
+    </head>
+    <body>
+        <header>
+            <h1>Kouame Alexandre Paul</h1>
+            <a id="menu" href="#" aria-label="Main menu"></a>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="project.html"  class="active">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="presentation">
+                <h2>My Projects</h2>
+            </section>
+
+            <section class="project">
+                <div class="card-project">
+                    <div class="card-img">
+                        <img src="images/mobile-app.webp" alt="My Land Mobile screenshot" loading="lazy">
+                    </div>
+                    <div class="card-description">
+                        <h3>My Land Mobile (Android & iOS)</h3>
+                        <p>A mobile application that allows users to manage their land properties, 
+                            access documents, and track their cases in real-time
+                        </p>
+                        <p>
+                           <strong>My Contribution:</strong> Developed the app using <em>Flutter</em>, 
+                            integrated <em> REST APIs</em>, implemented secure authentication, and managed push notifications
+                        </p>
+                    </div>
+                </div>
+                <div class="card-project">
+                    <div class="card-img">
+                        <img src="images/desktop-app.webp" alt="My Land Desktop screenshot" loading="lazy">
+                    </div>
+                    <div class="card-description">
+                        <h3>My Land Desktop</h3>
+                        <p>
+                            A desktop version designed for land administration professionals,
+                            offering advanced data editing and analysis tools.
+                        </p>
+                        <p>
+                           <strong>My Contribution:</strong> Designed the technical architecture, 
+                            evaluated <em>Flutter</em> , integrated with the backend, and managed <em>PostgreSQL</em>  database.
+                        </p>
+                    </div>
+                </div>
+                <div class="card-project">
+                    <div class="card-img">
+                        <img src="images/web-app.webp" alt="My Land Web screenshot" loading="lazy">
+                    </div>
+                    <div class="card-description">
+                        <h3>My Land Web</h3>
+                        <p>
+                            A web platform that enables users and administrators to manage 
+                            land information through an intuitive and secure interface
+                        </p>
+                        <p>
+                            <strong>My Contribution:</strong>  Developed the frontend with <em>Angular/ReactJS</em> , implemented APIs with <em>Spring Boot</em>, 
+                            secured data exchanges with <em> OAuth2/JWT</em>, and deployed the solution on <em>Kubernetes (K3s)</em> .
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; <span id="currentYear"></span> Kouame Alexandre Paul, Abidjan - Cote d'Ivoire</p>
+            <p id="lastModified"></p>
+        </footer>
+        <script src="scripts/base.js" async defer></script>
+    </body>
+</html>

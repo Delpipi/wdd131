@@ -1,0 +1,19 @@
+@media screen and (min-width: 760px) {
+    
+    .project{
+        width: 75%;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .card-project{
+        flex-direction: row;
+    }
+
+    .card-img img{
+        width: 350px;
+        height: auto;
+        aspect-ratio: 16/9;
+    }
+    
+}

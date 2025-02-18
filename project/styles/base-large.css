@@ -29,12 +29,6 @@
     }
 
     /* =================== MAIN =================== */
-
-    main {
-        display: grid;
-        grid-template-columns: 450px 1fr;
-    }
-
     /* presentation section */
     .presentation {
         padding: 5rem;
@@ -44,18 +38,6 @@
 
     .presentation h2{
         font-size: 2rem;
-    }
-
-    /* experience section */
-    .experience, .skills{
-        padding: 2rem;
-    }
-
-     /* experience section */
-    .skills .card-body{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 1rem;
     }
 
 }

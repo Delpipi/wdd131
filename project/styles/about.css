@@ -1,0 +1,86 @@
+/* =================== MAIN =================== */
+
+/* presentation section */
+.dynamic-text {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.presentation p{
+    text-align: justify;
+}
+
+.action-button{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.presentation a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 2px solid  var(--primary-color);
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.presentation a:hover {
+    border: 2px solid  var(--primary-color);
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+/* experience section */
+.experience, .skills{
+    padding: 1rem;
+}
+
+.card {
+    padding: 1rem;
+    background-color: #eee;
+}
+
+.card-header h3{
+    padding: 1rem;
+    text-transform: capitalize;
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: var(--secondary-color);
+
+    position: relative;
+    right: 30px ;
+    
+    margin-bottom: 1rem;
+
+}
+
+.card-body p{
+    text-align: justify;
+    line-height: 2rem;
+}
+
+/* skills section */
+.skills p{
+    background-color: rgba(255, 183, 3, 0.2);
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border: 2px solid var(--accent-color2);
+}
+
+.skills p:hover {
+    background-color: rgba(255, 183, 3, 0.8);
+}
+
+/* footer */
+footer{
+    padding: 1.5rem;
+    background-color: var(--accent-color1);
+    text-align: center;
+}
