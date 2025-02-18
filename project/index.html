@@ -12,71 +12,59 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/base.css">
         <link rel="stylesheet" href="styles/base-large.css">
+        <script src="scripts/base.js" async defer></script>
     </head>
     <body>
         <header>
             <h1>Kouame Alexandre Paul</h1>
+            <a id="menu" href="#"></a>
             <nav>
-                <ul>
-                    <li class="active"><a href="index.html">About</a></li>
+                <ul class="navigation">
+                    <li><a href="index.html" class="active">About</a></li>
                     <li><a href="project.html">Projects</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li></li>
                 </ul>
             </nav>
         </header>
         <main>
             <section class="presentation">
-                <h2>Software Engineer | Full Stack, DevOps & AI Enthusiast</h2>
-                <p>
-                    Hello! I’m a Software Engineer specializing in Full Stack Development, DevOps, and Artificial Intelligence. 
-                    With a strong background in web, mobile, and backend development, I am passionate about building scalable, 
-                    efficient, and innovative solutions that solve real-world problems. I have experience working with modern 
-                    web technologies, cloud computing, and automation tools to create high-performance applications. 
-                    My expertise spans across frontend and backend development, containerization, CI/CD pipelines, and cloud deployment. 
-                    I thrive in environments where I can design, develop, and deploy software solutions that enhance 
-                    user experience and business efficiency.
-                </p>
-                <div>
-                    <a href="#">Download CV</a>
-                    <a href="#">Contact Me</a>
+                <h2>Software Engineer | <span class="dynamic-text">Full Stack Developer</span></h2>
+
+                <div class="action-button">
+                    <a href="doc/kouame_alexandre_paul_cv.pdf" download="kouame_alexandre_paul_cv.pdf">Download CV</a>
+                    <a href="contact.html">Contact Me</a>
                 </div>
             </section>
-            <section class="skills">
-                <h3>Full Stack Mobile Developer | KOLAREL SA | [Start Date] – [End Date]</h3>
-                <p></p>
-                <div>
-                    <h4>Project: My Land - Digital Land Management Solution</h4>
-                    <ul>
-                        <li>Developed and maintained Flutter mobile applications for land management services.</li>
-                        <li>Designed and implemented microservices architecture using Spring Boot and Docker.</li>
-                        <li>Integrated REST APIs for seamless communication between frontend and backend services.</li>
-                        <li>Automated CI/CD pipelines using Jenkins for efficient deployment.</li>
-                        <li>Used SonarQube to analyze code quality and enforce best practices.</li>
-                        <li>Wrote unit tests with JUnit 5 to ensure code reliability and maintainability.</li>
-                        <li>Deployed services on K3s Kubernetes for scalability and high availability.</li>
-                        <li>Followed Scrum Agile methodology, participating in daily stand-ups, sprint planning, and retrospectives.</li>
-                        <li>Managed version control and collaboration using Git & GitHub.</li>
-                    </ul>
+            <section class="experience">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Professional Experience</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            I worked as a Full Stack Mobile Developer at ADC CONSULTING, where I contributed to the My Land 
+                            - Digital Land Management Solution project. This role allowed me to gain in-depth experience 
+                            in building scalable mobile and web applications, integrating microservices architectures, 
+                            and deploying solutions using Docker, Kubernetes, and cloud-based infrastructures.
+
+                            My ability to bridge the gap between development and operations ensures that my applications 
+                            are not only well-built but also easily deployable, maintainable, and optimized for performance.
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <h4>Achievements & Impact</h4>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
+            </section>
+            <section>
+                <h3>Technical Skills</h3>
+                <p>Web & Mobile Development</p>
+                <p>Backend Development</p>
+                <p>Cloud & DevOps</p>
+                <p>Databases</p>
+                <p>CI/CD & Automation</p>
             </section>
         </main>
-        <footer></footer>
-        <script src="scripts/base.js" async defer></script>
+        <footer>
+            <p>&copy; <span id="currentYear"></span> Kouame Alexandre Paul, Abidjan - Cote d'Ivoire</p>
+            <p id="lastModified"></p>
+        </footer>
     </body>
 </html>

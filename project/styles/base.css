@@ -1,0 +1,156 @@
+/* https://coolors.co/palette/8ecae6-219ebc-023047-ffb703-fb8500 */
+
+:root{
+    --primary-color: #023047;
+    --secondary-color: #FB8500;
+    --accent-color1: #219EBC;
+    --accent-color2: #FFB703;
+    --accent-color3: #8ECAE6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* header styling */
+header {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 1rem 0px;
+}
+
+header h1{
+    padding: 1rem;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.navigation a{
+    display: none;
+    font-size: 1rem;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.navigation a:hover, .navigation a.active {
+    background-color: var(--accent-color1);
+    color: #000;
+}
+
+/* styling humburger */
+#menu{
+    font-size: 2rem;
+    background-color: var(--accent-color1);
+    color: #000;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    padding: 0px 0.6rem;
+    margin-right: 0.6rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+.open a {
+    display: block;
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+/* =================== MAIN =================== */
+
+/* presentation section */
+.presentation {
+    padding: 3rem;
+    background-color: var(--accent-color2);
+}
+
+.presentation h2{
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+
+}
+
+.dynamic-text {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.presentation p{
+    text-align: justify;
+}
+
+.action-button{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.presentation a {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 2px solid  var(--primary-color);
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.presentation a:hover {
+    border: 2px solid  var(--primary-color);
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+/* experience section */
+.experience{
+    padding: 2rem;
+}
+
+.card {
+    padding: 2rem;
+    background-color: #eee;
+}
+
+.card-header h3{
+    padding: 1.5rem;
+    text-transform: uppercase;
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: var(--secondary-color);
+
+    position: relative;
+    right: 50px ;
+
+    margin-bottom: 1rem;
+
+}
+
+.card-body p{
+    text-align: justify;
+    line-height: 2rem;
+}
