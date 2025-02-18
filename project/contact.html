@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Project - Kouame Alexandre Paul</title>
+        <meta name="description" content="Project ">
+        <meta name="author" content="Kouame Alexandre Paul">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/base-large.css">
+        <link rel="stylesheet" href="styles/contact.css">
+        <link rel="stylesheet" href="styles/contact-large.css">
+    </head>
+    <body>
+        <header>
+            <h1>Kouame Alexandre Paul</h1>
+            <a id="menu" href="#" aria-label="Main menu"></a>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html"  class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="presentation">
+                <h2>Contact Me</h2>
+            </section>
+
+            <section class="form">
+                <h3>Send me an email</h3>
+                <form method="get" action="review.html" class="contactForm">
+
+                    <label for="fullname">Your name
+                        <input type="text" name="fullname" id="fullname" placeholder="Your name">
+                    </label>
+                   
+                    <label for="email">Your Email *
+                        <input type="email" name="email" id="email" placeholder="Your email" required>
+                    </label>
+                    
+                    <label for="subject">Subject *
+                        <input type="text" name="subject" id="subject" placeholder="Your subject" required>
+                    </label>
+                    
+                    <label for="message">Message *
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </label>
+                    
+    
+                    <input type="submit" value="Send My Email">
+    
+                </form>
+
+            </section>
+        </main>
+        <footer>
+            <p>&copy; <span id="currentYear"></span> Kouame Alexandre Paul, Abidjan - Cote d'Ivoire</p>
+            <p id="lastModified"></p>
+        </footer>
+        <script src="scripts/base.js" async defer></script>
+    </body>
+</html>

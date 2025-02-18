@@ -1,0 +1,60 @@
+/* ========= FORM STYLING ==============*/
+.form {
+    margin: 2rem 1rem;
+}
+
+.form h3{
+    padding-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+.contactForm {
+    background-color: var(--accent-color3);
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+.contactForm label{
+    display: block;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    color: var(--primary-color);
+}
+
+.contactForm div{
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.contactForm input[type="text"],
+.contactForm input[type="email"],
+.contactForm textarea{
+    border: none;
+    display: block;
+    background-color: #EDF2F4;
+    border-radius: 6px;
+    padding: 0.75rem;
+    width: 100%;
+    max-width: 400px;
+    color: var(--primary-color);
+    appearance: none;
+}
+
+.contactForm input[type="email"]:required, 
+.contactForm input[type="text"]:required,
+.contactForm textarea{
+    border: 2px solid #D90429;
+}
+
+.contactForm input[type="submit"]{
+    background-color: var(--secondary-color);
+    border-radius: 6px;
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 400px;
+    border: none;
+    color: #000;
+    font-size: 1rem;
+}

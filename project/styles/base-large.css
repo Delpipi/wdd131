@@ -1,13 +1,8 @@
 @media screen and (min-width: 760px) {
     
     /* header styling */
-    header {
-        background-color: var(--accent-color3);
-    }
-
     header h1{
         text-align: center;
-        background-color: var(--primary-color);
     }
 
     .navigation {
